@@ -381,7 +381,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             console.log("Buy Button Clicked");
             listItemForm.style.display = "none";
             displayContainer.style.display = "block"
-            itemsContainer.style.display = "block"
+            itemsContainer.style.display = "flex"
             myitemsContainer.style.display = "none";
             myItemsContainer.style.display = "none";
             buyTitle.style.display="block";
