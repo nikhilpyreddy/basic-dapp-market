@@ -536,7 +536,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
     // Function to display modal with message
     function showPurchaseAlert(transactionHash) {
-        const message = `Item Listed Successfully!!<br>Transaction Hash: <a href="https://sepolia.etherscan.io/tx/${transactionHash}" target="_blank">${transactionHash}</a>`;
+        const message = `Item Purchased Successfully!!<br>Transaction Hash: <a href="https://sepolia.etherscan.io/tx/${transactionHash}" target="_blank">${transactionHash}</a>`;
         document.getElementById("alertMessage").innerHTML = message;
         modal.style.display = "block";
     }
